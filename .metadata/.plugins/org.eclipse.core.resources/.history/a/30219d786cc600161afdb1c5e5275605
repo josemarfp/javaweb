@@ -1,0 +1,27 @@
+package br.com.cemig.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConnectionFactory {
+	public static void main(String[] args) {
+		Connection connection = new ConnectionFactory().getConnection();
+		System.out.println("Conexão aberta!");
+		
+		try {
+			connection.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public Connection getConnection() {
+		try {
+			return DriverManager.getConnection("jdbc:postgresql://localhost:5432/pmaq", "postgres", "postgres");
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}
+}
