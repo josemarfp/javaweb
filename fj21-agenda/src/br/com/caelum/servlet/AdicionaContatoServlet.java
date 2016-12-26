@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -36,6 +37,7 @@ public class AdicionaContatoServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		// pegando os parâmetros do request
+		
 		String nome = request.getParameter("nome");
 		String endereco = request.getParameter("endereco");
 		String email = request.getParameter("email");
@@ -45,7 +47,6 @@ public class AdicionaContatoServlet extends HttpServlet {
 
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		dataNascimento = LocalDate.parse(dataEmTexto, formatter);			
-
 		
 		// monta um objeto contato
 		Contato contato = new Contato();
@@ -65,12 +66,17 @@ public class AdicionaContatoServlet extends HttpServlet {
 		//</resource-ref>
 		ContatoDao dao = new ContatoDao();
 		dao.adiciona(contato);
+		
 		// imprime o nome do contato que foi adicionado
-		out.println("<html>");
-		out.println("<body>");
-		out.println("Contato " + contato.getNome() +
-		" adicionado com sucesso");
-		out.println("</body>");
-		out.println("</html>");
+		//out.println("<html>");
+		//out.println("<body>");
+		//out.println("Contato " + contato.getNome() +
+		//" adicionado com sucesso");
+		//out.println("</body>");
+		//out.println("</html>");
+		
+		RequestDispatcher rd = request
+			.getRequestDispatcher("/contato-adicionado.jsp");
+		rd.forward(request, response);
 	}
 }
