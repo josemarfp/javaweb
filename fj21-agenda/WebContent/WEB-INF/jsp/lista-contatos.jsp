@@ -51,7 +51,12 @@
 					</td>
 					<td>${contato.endereco}</td>
 					<td><tags:localdate date="${contato.dataNascimento}" pattern="dd/MM/yyyy"/></td>
-					<td><a href="mvc?logica=RemoveContatoLogic&id=${contato.id}">Remover</a></td>
+					<td>
+						<a href="mvc?logica=AdicionaContatoLogic">Adicionar</a>
+						<a href="mvc?logica=AlteraContatoLogic&id=${contato.id}">Alterar</a>
+						<a href="mvc?logica=RemoveContatoLogic&id=${contato.id}">Remover</a>
+					</td>
+					
 				</tr>
 			</c:forEach>
 		</table>
