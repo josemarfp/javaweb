@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="br.com.pmaq.jdbc.modelo.Paciente"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebInitParam"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
@@ -23,4 +22,10 @@
 <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="br.com.caelum.jdbc.model.Contato"/>
+<fullyQualifiedTypeName name="br.com.caelum.jdbc.dao.ContatoDao"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
 </qualifiedTypeNameHistroy>

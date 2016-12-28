@@ -17,10 +17,12 @@ public class ControllerServlet extends HttpServlet {
 	throws ServletException, IOException {
 		String parametro = request.getParameter("logica");
 		String nomeDaClasse = "br.com.caelum.mvc.logica." + parametro;
+		
 		try {
 			Class classe = Class.forName(nomeDaClasse);
 			Logica logica = (Logica) classe.newInstance();
 			String pagina = logica.executa(request, response);
+			
 			request.getRequestDispatcher(pagina).forward(request, response);
 		} catch (Exception e) {
 			throw new ServletException(

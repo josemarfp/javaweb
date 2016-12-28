@@ -1,0 +1,5 @@
+127.0.0.1 - - [25/Dec/2016:21:28:38 -0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [25/Dec/2016:21:28:43 -0200] "GET /fj21-agenda/adiciona-contato.jsp HTTP/1.1" 200 1566
+0:0:0:0:0:0:0:1 - - [25/Dec/2016:21:28:43 -0200] "GET /fj21-agenda/css/estilos.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Dec/2016:21:28:44 -0200] "GET /fj21-agenda/imagens/caelum.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Dec/2016:21:29:24 -0200] "GET /fj21-agenda/adicionaContato?nome=Jos%E9+Julio+Pereira&email=jojo%40gmail.com&endereco=Rua+Manchester%2C+107&dataNascimento=16%2F06%2F1943 HTTP/1.1" 200 237
