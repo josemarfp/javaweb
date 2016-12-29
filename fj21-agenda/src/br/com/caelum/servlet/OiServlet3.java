@@ -20,6 +20,10 @@ import javax.servlet.http.HttpServletResponse;
 	}
 )
 public class OiServlet3 extends HttpServlet {	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3079581412255295469L;
 	// código omitido
 	private String parametro1;
 	private String parametro2;

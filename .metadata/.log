@@ -944,3 +944,9 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 
 !ENTRY org.eclipse.jface.text 2 0 2016-12-28 02:29:21.741
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-12-28 19:55:55.189
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-12-28 19:55:55.221
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

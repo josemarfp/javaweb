@@ -22,6 +22,7 @@
 		<!-- A linha comentada serve pra lembrar como foi feita da primeira vez -->
 		<!-- cria o DAO -->
 		<!-- jsp:useBean id="dao" class="br.com.caelum.jdbc.dao.ContatoDao"/-->
+		<a href="mvc?logica=AlteraContatoLogic&id=0&paramAltera=novo">Adicionar</a>
 		<table>
 			<caption>Contatos</caption>
 			<tr>
@@ -51,8 +52,7 @@
 					</td>
 					<td>${contato.endereco}</td>
 					<td><tags:localdate date="${contato.dataNascimento}" pattern="dd/MM/yyyy"/></td>
-					<td>
-						<a href="mvc?logica=AlteraContatoLogic&id=0&paramAltera=novo">Adicionar</a>
+					<td>						
 						<a href="mvc?logica=AlteraContatoLogic&id=${contato.id}&paramAltera=popula">Alterar</a>
 						<a href="mvc?logica=RemoveContatoLogic&id=${contato.id}">Remover</a>
 					</td>

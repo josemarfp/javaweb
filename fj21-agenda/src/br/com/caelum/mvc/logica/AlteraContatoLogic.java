@@ -1,10 +1,8 @@
 package br.com.caelum.mvc.logica;
 
-import java.sql.Connection;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -24,8 +22,7 @@ public class AlteraContatoLogic implements Logica {
 				this.altera(req, res);
 				return "mvc?logica=ListaContatosLogic";			
 			}
-			case "popula" : {
-				long id = Long.parseLong(req.getParameter("id"));			
+			case "popula" : {							
 				this.popula(req, res);				
 				return "/WEB-INF/jsp/altera-contato.jsp";
 			}

@@ -12,6 +12,11 @@ import br.com.caelum.mvc.logica.Logica;
 
 @WebServlet("/mvc")
 public class ControllerServlet extends HttpServlet {
+	/**
+	 * Acrescentei para suprimir o warning, verificar o significado depois.
+	 */
+	private static final long serialVersionUID = -2348268503907149856L;
+
 	protected void service(HttpServletRequest request,
 	HttpServletResponse response)
 	throws ServletException, IOException {
@@ -19,7 +24,7 @@ public class ControllerServlet extends HttpServlet {
 		String nomeDaClasse = "br.com.caelum.mvc.logica." + parametro;
 		
 		try {
-			Class classe = Class.forName(nomeDaClasse);
+			Class<?> classe = Class.forName(nomeDaClasse);
 			Logica logica = (Logica) classe.newInstance();
 			String pagina = logica.executa(request, response);
 			

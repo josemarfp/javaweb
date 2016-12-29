@@ -6,7 +6,7 @@
 Formulário para alteração de contatos:<br/>
 
 <!-- mvc é o nome da servlet que controla este form -->
-<!-- ${requestScope.xxx lê um atributo do formulário, o qual é diferente de um parametro} -->
+<!-- requestScope.xxx lê um atributo do formulário, o qual é diferente de um parametro} -->
 <form action="mvc" method="POST">
     Id:
     <input type="text" name="id" value="${requestScope.id}" readonly/><br/>

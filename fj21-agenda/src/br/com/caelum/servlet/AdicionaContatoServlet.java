@@ -1,11 +1,8 @@
 package br.com.caelum.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.text.ParseException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
@@ -21,6 +18,11 @@ import br.com.caelum.jdbc.model.Contato;
 @WebServlet("/adicionaContato")
 public class AdicionaContatoServlet extends HttpServlet {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1785348253243492990L;
+
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
 		log("Iniciando a servlet");
@@ -35,7 +37,6 @@ public class AdicionaContatoServlet extends HttpServlet {
 	HttpServletResponse response)
 	throws IOException, ServletException {
 		
-		PrintWriter out = response.getWriter();
 		// pegando os parâmetros do request
 		
 		String nome = request.getParameter("nome");

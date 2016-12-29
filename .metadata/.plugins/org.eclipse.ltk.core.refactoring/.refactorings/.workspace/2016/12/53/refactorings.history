@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;postgresql-9.4.1208&apos;" deleteContents="true" description="Delete resource &apos;postgresql-9.4.1208&apos;" element1="/postgresql-9.4.1208" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1482962776692"/>
+</session>
