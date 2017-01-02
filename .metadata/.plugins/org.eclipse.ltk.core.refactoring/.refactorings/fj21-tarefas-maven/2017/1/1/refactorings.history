@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;src.br.com.caelum.jdbc&apos; to &apos;br.com.caelum.jdbc&apos;&#x0D;&#x0A;- Original project: &apos;fj21-tarefas-maven&apos;&#x0D;&#x0A;- Original element: &apos;fj21-tarefas-maven/fj21-conexao/src.br.com.caelum.jdbc&apos;&#x0D;&#x0A;- Renamed element: &apos;fj21-tarefas-maven/fj21-conexao/br.com.caelum.jdbc&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;src.br.com.caelum.jdbc&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/fj21-conexao&lt;src.br.com.caelum.jdbc" name="br.com.caelum.jdbc" qualified="false" references="true" stamp="1483358583312" textual="false" version="1.0"/>
+</session>

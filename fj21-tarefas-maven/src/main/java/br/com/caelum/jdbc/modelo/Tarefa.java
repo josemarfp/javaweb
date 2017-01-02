@@ -1,0 +1,43 @@
+package br.com.caelum.jdbc.modelo;
+
+import java.time.LocalDate;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+public class Tarefa {
+	private Long id;
+	
+	@NotNull(message="{tarefa.descricao.vazia}")
+	@Size(min=5, message="{tarefa.descricao.pequena}")
+	private String descricao;
+	
+	private Boolean finalizado;
+	
+	private LocalDate dataFinalizacao;
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public Boolean getFinalizado() {
+		return finalizado;
+	}
+	public void setFinalizado(Boolean finalizado) {
+		this.finalizado = finalizado;
+	}
+	public LocalDate getDataFinalizacao() {
+		return dataFinalizacao;
+	}
+	public void setDataFinalizacao(LocalDate dataFinalizacao) {
+		this.dataFinalizacao = dataFinalizacao;
+	}
+}

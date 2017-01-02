@@ -18,6 +18,7 @@ public class OiMundo extends HttpServlet {
 		HttpServletResponse response)
 		throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
+		
 		// escreve o texto
 		out.println("<html>");
 		out.println("<head>");

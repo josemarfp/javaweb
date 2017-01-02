@@ -1,5 +1,6 @@
 package br.com.caelum.mvc.logica;
 
+import java.sql.Connection;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
@@ -40,7 +41,10 @@ public class AlteraContatoLogic implements Logica {
 
 		System.out.println("buscando o contato:" + id);
 		
-		ContatoDao dao = new ContatoDao();
+		Connection connection = (Connection) req.getAttribute("conexao");
+		
+		// passe a conexão no construtor
+		ContatoDao dao = new ContatoDao(connection);	
 		contato = dao.consulta(id);
 		
 		req.setAttribute("id", contato.getId());
@@ -64,7 +68,10 @@ public class AlteraContatoLogic implements Logica {
 		Contato contato = new Contato();
 		long id = Long.parseLong(req.getParameter("id"));
 		
-		ContatoDao dao = new ContatoDao();
+		Connection connection = (Connection) req.getAttribute("conexao");
+		
+		// passe a conexão no construtor
+		ContatoDao dao = new ContatoDao(connection);	
 		
 		if (id > 0) {			
 			contato = dao.consulta(id);

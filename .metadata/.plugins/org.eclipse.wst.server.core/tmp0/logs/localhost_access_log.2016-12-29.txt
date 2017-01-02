@@ -1,0 +1,13 @@
+127.0.0.1 - - [29/Dec/2016:22:53:16 -0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:57:18 -0200] "GET /fj21-agenda/mvc?logica=ListaContatosLogic HTTP/1.1" 200 6391
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:57:18 -0200] "GET /fj21-agenda/css/estilos.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:57:20 -0200] "GET /fj21-agenda/imagens/caelum.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:57:20 -0200] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:57:20 -0200] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:57:28 -0200] "GET /fj21-agenda/mvc?logica=AlteraContatoLogic&id=13&paramAltera=popula HTTP/1.1" 200 1131
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:57:38 -0200] "POST /fj21-agenda/mvc HTTP/1.1" 200 6397
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:58:04 -0200] "GET /fj21-agenda/mvc?logica=AlteraContatoLogic&id=12&paramAltera=popula HTTP/1.1" 200 1132
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:58:10 -0200] "POST /fj21-agenda/mvc HTTP/1.1" 200 6397
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:58:18 -0200] "GET /fj21-agenda/mvc?logica=RemoveContatoLogic&id=13 HTTP/1.1" 200 5770
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:58:23 -0200] "GET /fj21-agenda/mvc?logica=AlteraContatoLogic&id=0&paramAltera=novo HTTP/1.1" 200 1885
+0:0:0:0:0:0:0:1 - - [29/Dec/2016:22:58:46 -0200] "POST /fj21-agenda/mvc HTTP/1.1" 200 6397
