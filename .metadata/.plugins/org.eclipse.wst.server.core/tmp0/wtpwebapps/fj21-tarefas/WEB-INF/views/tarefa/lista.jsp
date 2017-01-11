@@ -10,7 +10,7 @@
 <html>
     <head>
         <title>Lista de tarefas</title>
-		<link rel="stylesheet" href="css/estilos.css">		
+		<link rel="stylesheet" href="resources/css/estilos.css">		
 		<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 	    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         
@@ -39,6 +39,8 @@
 						<td>Finalizado</td>
 					</c:if>
 					<td><c:out value="${tarefa.dataFinalizacao}"/></td>
+	        		<td><a href="mostraTarefa?id=${tarefa.id}">Alterar</a></td>
+	        		<td><a href="removeTarefa?id=${tarefa.id}">Remover</a></td>					
 				</tr>
 			</c:forEach>			 
 		</table>

@@ -5310,3 +5310,174 @@ org.eclipse.core.runtime.CoreException: Launch configuration JdbcTarefaDaoTest r
 2017-01-11 02:09:03,992 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
 2017-01-11 02:09:03,997 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
 2017-01-11 02:09:04,000 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:15:07,388 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:15:07,388 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:15:07,388 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:15:07,391 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:15:07,391 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:15:07,392 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:15:07,398 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:15:07,402 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:33,021 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:33,021 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:20:33,025 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:20:33,031 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:33,035 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:20:33,035 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:20:33,039 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:20:33,043 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:52,709 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:52,709 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:20:52,709 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:20:52,711 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:52,712 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:20:52,712 [Worker-32] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:20:52,718 [Worker-32] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:20:52,723 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:57,355 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:57,355 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:20:57,359 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:20:57,366 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:20:57,371 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:20:57,372 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:20:57,377 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:20:57,381 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:22:46,307 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:22:46,307 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:22:46,307 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:22:46,309 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:22:46,309 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:22:46,309 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:22:46,313 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:22:46,316 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:22:49,957 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:22:49,958 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:22:49,966 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:22:49,976 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:22:49,980 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:22:49,980 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:22:49,983 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:22:49,987 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:23:51,941 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:23:51,941 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:23:51,942 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:23:51,945 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:23:51,945 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:23:51,946 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:23:51,956 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:23:51,962 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:27:20,292 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:27:20,292 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:27:20,297 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:27:20,305 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:27:20,310 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:27:20,310 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:27:20,314 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:27:20,318 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:28:02,098 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:28:02,098 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:28:02,098 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:28:02,100 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:28:02,100 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:28:02,100 [Worker-39] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:28:02,106 [Worker-39] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:28:02,111 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:35:14,621 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:35:14,621 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:35:14,625 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:35:14,630 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:35:14,634 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:35:14,634 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:35:14,637 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:35:14,641 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:42:24,056 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:42:24,057 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:42:24,057 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:42:24,059 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:42:24,059 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:42:24,060 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:42:24,064 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:42:24,069 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:43:22,811 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:43:22,811 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:43:22,816 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:43:22,824 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:43:22,829 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:43:22,829 [Worker-49] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:43:22,836 [Worker-49] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:43:22,841 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:21,333 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:21,333 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:46:21,333 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:46:21,335 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:21,335 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:46:21,335 [Worker-56] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:46:21,340 [Worker-56] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:46:21,344 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:30,733 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:30,733 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:46:30,737 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:46:30,742 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:30,746 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:46:30,746 [Worker-56] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:46:30,749 [Worker-56] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:46:30,753 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:39,913 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:39,913 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:46:39,913 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:46:39,915 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:46:39,915 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:46:39,915 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:46:39,918 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:46:39,923 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:48:37,618 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:48:37,618 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:48:37,622 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:48:37,629 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:48:37,632 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:48:37,633 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:48:37,636 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:48:37,639 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:04,662 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:04,662 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:04,662 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:04,664 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:04,664 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:52:04,665 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:52:04,668 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:52:04,671 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:12,382 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:12,382 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:12,386 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:12,391 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:12,394 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:52:12,395 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:52:12,398 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:52:12,401 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:15,027 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:15,027 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:15,027 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:15,029 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:15,029 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:52:15,029 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:52:15,034 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:52:15,038 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:36,065 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:36,065 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:36,070 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:36,076 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:36,080 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:52:36,080 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:52:36,084 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:52:36,088 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:43,050 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:43,050 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:43,050 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\main\resources
+2017-01-11 02:52:43,052 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:52:43,052 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dev\eclipse\workspace\javaweb\fj21-tarefas\src\test\resources
+2017-01-11 02:52:43,052 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of fj21-tarefas
+2017-01-11 02:52:43,056 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for fj21-tarefas
+2017-01-11 02:52:43,060 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-11 02:55:25,656 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-01-11 02:55:33,083 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Dev\eclipse\workspace\javaweb\fj21-tarefas
+2017-01-11 02:55:33,088 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install

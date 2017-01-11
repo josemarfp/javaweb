@@ -9,3 +9,11 @@
 1484101396695	Rename package 'main.java.br.com.caelum.jdbc'
 1484101406775	Rename package 'main.java.br.com.caelum.tarefas.controller'
 1484101436812	Delete element
+1484108452545	Move 'css' to 'WEB-INF'
+1484108457194	Move 'imagens' to 'WEB-INF'
+1484108566027	Move 'css' to 'WebContent'
+1484108569730	Move 'imagens' to 'WebContent'
+1484109990585	Move 'css' to 'tarefa'
+1484109999750	Move 'imagens' to 'tarefa'
+1484110332229	Move 'css' to 'resources'
+1484110334823	Move 'imagens' to 'resources'
