@@ -1,0 +1,44 @@
+package br.com.caelum.jdbc.dao.teste;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class JdbcTarefaDaoTest {
+
+	@Test
+	public void testJdbcTarefaDao() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testJdbcTarefaDaoConnection() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAdiciona() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testConsulta() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testLista() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAltera() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRemove() {
+		fail("Not yet implemented");
+	}
+
+}

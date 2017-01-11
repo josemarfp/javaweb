@@ -1,0 +1,101 @@
+package br.com.caelum.jdbc.dao.teste;
+
+import static org.junit.Assert.*;
+
+import java.time.LocalDate;
+import java.util.List;
+
+import org.junit.Test;
+
+import br.com.caelum.jdbc.ConnectionFactory;
+import br.com.caelum.jdbc.dao.JdbcTarefaDao;
+import br.com.caelum.jdbc.modelo.Tarefa;
+
+public class JdbcTarefaDaoTest {
+
+	@Test
+	public void testJdbcTarefaDao() {
+		Tarefa tarefa = new Tarefa();
+		tarefa.setDescricao("Tarefa de teste");
+		
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		assertNotEquals(dao.toString(), "") ;
+	}
+
+	@Test
+	public void testJdbcTarefaDaoConnection() {
+		
+		JdbcTarefaDao dao = new JdbcTarefaDao(new ConnectionFactory().getConnection());
+		assertNotEquals(dao.toString(), "") ;
+	}
+
+	@Test
+	public void testAdiciona() {
+
+		Tarefa tarefa = new Tarefa();
+				
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		
+		tarefa.setDescricao("Tarefa de teste: ".concat(LocalDate.now().toString()));
+		dao.adiciona(tarefa);
+		
+		tarefa.setDescricao("Tarefa de teste: ".concat(LocalDate.now().toString()));
+		dao.adiciona(tarefa);
+		
+		tarefa.setDescricao("Tarefa de teste: ".concat(LocalDate.now().toString()));
+		dao.adiciona(tarefa);
+	}
+
+	@Test
+	public void testConsulta() {
+		
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		
+		List<Tarefa> tarefas = dao.lista();
+		Long id = tarefas.get(1).getId();
+		Tarefa tarefa = dao.consulta(id);
+		
+		assertEquals(id, tarefa.getId()) ;
+	}
+
+	@Test
+	public void testLista() {
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		
+		List<Tarefa> tarefas = dao.lista();
+		
+		assertNotEquals(tarefas.size(), 0) ;
+	}
+
+	@Test
+	public void testAltera() {
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		
+		List<Tarefa> tarefas = dao.lista();
+		Long id = tarefas.get(1).getId();
+		Tarefa tarefa = dao.consulta(id);
+		
+		tarefa.setDescricao("Tarefa alterada: ".concat(LocalDate.now().toString()));
+		dao.altera(tarefa);
+		
+		Tarefa tarefa2 = dao.consulta(id);
+		
+		assertNotEquals(tarefa2, tarefa) ;
+	}
+
+	@Test
+	public void testRemove() {
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		
+		List<Tarefa> tarefas = dao.lista();		
+		Tarefa tarefa = tarefas.get(1);
+		Long id = tarefa.getId();
+		
+		dao.remove(tarefa);
+		
+		Tarefa tarefa2 = dao.consulta(id);
+		
+		assertNotEquals(tarefa2, tarefa) ;
+	}
+
+}

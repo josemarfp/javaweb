@@ -48,6 +48,19 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="fj21-tarefas"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="fj21-tarefas"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 			<item value="C:\Dev\eclipse\workspace\javaweb"/>
@@ -63,15 +76,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="br.com.caelum.fj21_tarefas_maven"/>
 			<item value="br.com.caelum.fj21_tarefas"/>
+			<item value="br.com.caelum.fj21_tarefas_maven"/>
 		</list>
 		<list key="groupId">
 			<item value="br.com.caelum"/>
 		</list>
 		<list key="artifactId">
-			<item value="fj21-tarefas-maven"/>
 			<item value="fj21-tarefas"/>
+			<item value="fj21-tarefas-maven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

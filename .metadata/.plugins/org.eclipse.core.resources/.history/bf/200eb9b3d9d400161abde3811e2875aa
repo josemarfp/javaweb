@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html xmlns:th="http://www.thymeleaf.org">
+
+<html>
+	<body>
+		<a href="novaTarefa">Criar nova tarefa</a>
+		<br /> <br />
+		<table>
+			<tr>
+				<th>Id</th>
+				<th>Descrição</th>
+				<th>Finalizado?</th>
+				<th>Data de finalização</th>
+			</tr>
+			<th:Each items="${tarefas}" var="tarefa">
+				<tr>
+					<td>${tarefa.id}</td>
+					<td>${tarefa.descricao}</td>
+					<th:if test="${tarefa.finalizado eq false}">
+						<td>Não finalizado</td>
+					</th:if>
+					<c:if test="${tarefa.finalizado eq true}">
+					<td>Finalizado</td>
+					</c:if>
+					<td>
+						<fmt:formatDate
+						value="${tarefa.dataFinalizacao.time}"
+						pattern="dd/MM/yyyy"/>
+					</td>
+				</tr>
+			</th:Each>
+		</table>
+	</body>
+</html>

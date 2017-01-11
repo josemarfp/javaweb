@@ -1,0 +1,64 @@
+package br.com.caelum.jdbc.dao.teste;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import br.com.caelum.jdbc.ConnectionFactory;
+import br.com.caelum.jdbc.dao.JdbcTarefaDao;
+import br.com.caelum.jdbc.modelo.Tarefa;
+import groovyjarjarantlr.collections.List;
+
+public class JdbcTarefaDaoTest {
+
+	@Test
+	public void testJdbcTarefaDao() {
+		Tarefa tarefa = new Tarefa();
+		tarefa.setDescricao("Tarefa de teste");
+		
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		assertNotEquals(dao.toString(), "") ;
+	}
+
+	@Test
+	public void testJdbcTarefaDaoConnection() {
+		
+		JdbcTarefaDao dao = new JdbcTarefaDao(new ConnectionFactory().getConnection());
+		assertNotEquals(dao.toString(), "") ;
+	}
+
+	@Test
+	public void testAdiciona() {
+		Tarefa tarefa = new Tarefa();
+		tarefa.setDescricao("Tarefa de teste");
+		
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		dao.adiciona(tarefa);
+	}
+
+	@Test
+	public void testConsulta() {
+		
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		
+		List<Tarefa> tarefas = dao.lista();
+		Long id = tarefas.elementAt(1).getId();
+		Tarefa tarefa = dao.consulta(id);
+	}
+
+	@Test
+	public void testLista() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAltera() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRemove() {
+		fail("Not yet implemented");
+	}
+
+}
