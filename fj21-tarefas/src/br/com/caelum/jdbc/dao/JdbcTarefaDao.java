@@ -5,7 +5,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.sql.Date;
 import java.util.List;
 
 import br.com.caelum.jdbc.ConnectionFactory;
@@ -52,13 +54,14 @@ public class JdbcTarefaDao {
 			tarefa.setDescricao(rs.getString("descricao"));
 			tarefa.setFinalizado(rs.getBoolean("finalizado"));
 			
-			try {
-				LocalDate data = rs.getDate("datafinalizacao").toLocalDate(); 
-				tarefa.setDataFinalizacao(data);
-			} catch (Exception e) {
-				tarefa.setDataFinalizacao(null);
+			Date date = rs.getDate("datafinalizacao");
+			if (date != null) {
+				String strDate = date.toString();
+				DateTimeFormatter dtf  = DateTimeFormatter.ofPattern("yyyy-MM-dd");	
+				LocalDate newDate = LocalDate.parse(strDate, dtf);
+				tarefa.setDataFinalizacao(newDate);
 			}
-			
+						
 			return tarefa;
 		} catch (SQLException e) {
 			return new Tarefa();			
@@ -115,6 +118,15 @@ public class JdbcTarefaDao {
 		}
 	}	
 	
+	public void finaliza(Long id) {
+		Tarefa tarefa = this.consulta(id);
+		
+		tarefa.setFinalizado(true);
+		tarefa.setDataFinalizacao(LocalDate.now());
+		
+		this.altera(tarefa);
+	}
+	
 	public void altera(Tarefa tarefa) {
 		String sql = "update tarefas set descricao=?, finalizado=?," +
 		"dataFinalizacao=? where id=?";
@@ -122,14 +134,21 @@ public class JdbcTarefaDao {
 			PreparedStatement stmt = connection.prepareStatement(sql);
 			stmt.setString(1, tarefa.getDescricao());
 			stmt.setBoolean(2, tarefa.getFinalizado());
-			stmt.setObject(3, tarefa.getDataFinalizacao());
+			
+			LocalDate newDate = tarefa.getDataFinalizacao();
+			Date date = null;
+			if (newDate != null) {
+				date = Date.valueOf(newDate);
+			}
+			stmt.setDate(3, date);
+			
 			stmt.setLong(4, tarefa.getId());
 			stmt.execute();
 			stmt.close();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
-	}
+	}	
 	
 	public void remove(Tarefa tarefa) {
 		try {

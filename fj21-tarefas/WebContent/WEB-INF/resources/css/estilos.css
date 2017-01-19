@@ -35,3 +35,7 @@ caption {
     margin-bottom: 0.3em;
   	font-size: 1.3em;
 }
+
+form:errors {
+	color: red;
+}
