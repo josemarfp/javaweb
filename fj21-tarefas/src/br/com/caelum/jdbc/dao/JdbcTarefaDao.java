@@ -10,20 +10,32 @@ import java.util.ArrayList;
 import java.sql.Date;
 import java.util.List;
 
-import br.com.caelum.jdbc.ConnectionFactory;
+//import br.com.caelum.jdbc.ConnectionFactory;
 import br.com.caelum.jdbc.modelo.Tarefa;
 
+import org.apache.tomcat.jdbc.pool.DataSource;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+
+@Repository // IoC do Spring framework
 public class JdbcTarefaDao {
 
 	// a conex�o com o banco de dados
 	private Connection connection;
-	
+	/*
 	public JdbcTarefaDao() {
 		this.connection = new ConnectionFactory().getConnection();
-	}
+	}*/
 	
-	public JdbcTarefaDao(Connection connection) {
-		this.connection = connection;
+	@Autowired
+	public JdbcTarefaDao(DataSource dataSource) {
+		try {
+			this.connection = dataSource.getConnection();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public void adiciona(Tarefa tarefa) {

@@ -37,7 +37,7 @@
 			</tr>
 			
 			<c:forEach var="tarefa" items="${tarefas}" >
-				<tr>
+				<tr id="tarefa_${tarefa.id}">
 					<td><c:out value="${tarefa.id}"/></td>
 					<td><c:out value="${tarefa.descricao}"/></td>
 					<c:if test="${tarefa.finalizado eq false}">

@@ -4,9 +4,13 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>Tarefas</title>
+		<title>Menu</title>
 	</head>
 	<body>
-		Nova tarefa adicionada com sucesso!
+		<h2>Página inicial da Lista de Tarefas</h2>
+		<p>Bem vindo, ${usuarioLogado.login}</p>
+		<a href="listaTarefas">Clique aqui</a> para acessar a
+		lista de tarefas
+		<a href="logout">Sair do sistema</a>
 	</body>
 </html>
